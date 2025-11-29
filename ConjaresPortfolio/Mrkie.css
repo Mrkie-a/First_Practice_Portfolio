@@ -1,0 +1,549 @@
+*{
+    margin: 0%;
+    padding: 0%; 
+}
+/* This block of codes are for the basics  */
+body {
+    background-color: #5c5a59;
+    cursor: cell;
+    font-family: monospace, sans-serif;
+}
+
+
+/* Header where i arrange the things on my header */
+header {
+    background-color:#171010 ;
+    width: 100%;
+    height: 7%;
+    display: flex;
+    border-bottom: solid 2px #171010 ;
+    box-shadow:0 1px 5px 5px #171010;
+}
+
+.logo {
+    width: 7%;
+    height: 100%;
+    display: flex;
+    padding-left: 50px;
+}
+
+.logo img {
+    width: 80px;
+    border-radius: 20px;
+}
+
+.choices {
+    width: 100%;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+nav a {
+    margin: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    font-size: 30px;
+    transition: 0.5s;
+    text-shadow: 
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 10px #fff;
+}
+
+
+nav a:active {
+    color: #423F3E;
+}
+
+/* This part contains the Home Section */
+
+.Home {
+    width: 80%;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name {
+    width: 100%;
+    height: 300px;
+    margin: 25px;
+}
+
+.name a img {
+    width: 40px;
+    margin: 20px;
+    border-radius: 50%;
+    transition: 2s;
+    box-shadow: 10px 15px 15px black;
+}
+
+.name a img:hover {
+    transition:all 1s;
+    box-shadow: none;
+    box-shadow: 
+    0 0 10px #fff,
+    0 0 20px red,
+    0 0 20px #fff;
+    transform: scale(1.5);
+}
+
+.name h2 {
+    font-size: 40px;
+    padding-bottom: 15px;
+    color: #171010;
+    text-shadow: 
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff;
+}
+
+.name p {
+    color: #171010;
+}
+
+.picture img {
+    margin: 25px;
+    width: 400px;
+    border-radius: 500px;
+    box-shadow: 30px 30px 20px black;
+    transition: 2s;
+    rotate: -360deg;
+}
+
+.picture img:hover {
+    transform: scale(0.12s);
+    box-shadow: none;
+    box-shadow: 
+    0 0 10px #fff,
+    0 0 20px red,
+    0 0 40px #fff;
+    transition: 2s;
+    rotate: 360deg;
+}
+
+/* Profile Section indicates the about me */
+
+.Profile {
+    width: 100%;
+    height: 100vh;
+    background-color: #171010;
+}
+
+.titlefrofile {
+    width: 100%;
+    height: 15%;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    align-items: center;
+}
+
+.H2 h2{
+    color: aliceblue;
+    font-size: 40px;
+    margin-left: 40px;
+    text-shadow: 
+    0 0 10px #423F3E,
+    0 0 20px #423F3E,
+    0 0 40px #423F3E;
+}
+
+.containerofinfo {
+    width: 80%;
+    height: 50%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.containerforskills{
+    width: 350px;
+    height: 95%;
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: #5c5a59;
+    transition: 2s;
+}
+
+.containerforskills:hover {
+    border-radius: 70px;
+    transform: scale(1.2);
+    box-shadow: 
+    0 0 10px #fff,
+    0 0 20px blue,
+    0 0 40px #fff;
+    transition: 2s;
+}
+
+.containerforskills p {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    color: #171010;
+}
+
+.unorderedlist {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.educationbackground {
+    width: 350px;
+    height: 95%;
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: #423F3E;
+    transition: 2s;
+}
+
+.educationbackground:hover {
+    border-radius: 70px;
+    transform: scale(1.2);
+    box-shadow: 
+    0 0 10px #fff,
+    0 0 20px blue,
+    0 0 40px #fff;
+    transition: 2s;
+}
+
+.educationbackground p {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    color: #9c9a99;
+}
+
+.unorderedlist2 {
+    width: 80%;
+    margin: 0 auto;
+    color: #747271;
+}
+
+.certificate {
+    width: 350px;
+    height: 95%;
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: #5c5a59;
+    transition: 2s;
+}
+
+.certificate:hover {
+    border-radius: 70px;
+    transform: scale(1.2);
+    box-shadow: 
+    0 0 10px #fff,
+    0 0 20px blue,
+    0 0 40px #fff;
+    transition: 2s;
+    transition: 2s;
+}
+
+.certificate p {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.unorderedlist3 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.AboutmeSumary {
+    width: 80%;
+    height: 30%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.summaryofabout {
+    width: 90%;
+    height: 85%;
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: #423F3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.summaryofabout:hover {
+    transition: 1s;
+    color: #171010;
+    cursor: pointer;
+    box-shadow: 
+    0 0 10px #fff,
+    0 0 10px blueviolet,
+    0 0 10px #fff;
+}
+
+.summaryofabout h2 {
+    width: 30%;
+    text-align: center;
+    display: flex;
+    text-shadow: 
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 30px #fff;
+}
+
+.summaryofabout p {
+    width: 50%;
+    display: flex;
+    color: #9c9a99;
+}
+
+/* Project Section */
+
+
+.Project{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projecttitle {
+    width: 100%;
+    height: 7%;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+}
+
+.projecttitle a {
+    font-size: 40px;
+    text-align: center;
+    color: #171010;
+    text-decoration: none;
+    transition: 2s;
+}
+
+.projecttitle p {
+    transition: 2s;
+}
+
+.projecttitle p:hover {
+    transition: 2s;
+    text-shadow: 
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff;
+}
+
+
+.Hire{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hire p {
+    font-size: 50px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    font-weight: 600;
+    transition: 3s;
+}
+
+.Hire p:hover {
+    transition: 3s;
+    transform: scale(1.2);
+    opacity: 0.5;
+    color: #171010;
+    cursor: pointer;
+    text-shadow: 
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff;
+    box-shadow: 
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #ff0000;
+}
+
+
+
+/* Hobby's */
+
+
+.Hobby {
+    width: 100%;
+    height: 100vh;
+    background-color: #171010;
+}
+
+.Hobby p{
+    text-align: center;
+    font-size: 30px;
+    color: #5c5a59;
+    margin: 30px 20px;
+}
+
+.LearnMore a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LearnMore p{
+    font-size: 20px;
+    color: #5c5a59;
+    border: #5c5a59 solid 2px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px 30px;
+    transition: 2s;
+}
+
+.LearnMore p:hover {
+    transition: 2s;
+    color: #171010;
+    cursor: pointer;
+    text-shadow: 
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff;
+}
+
+.title p{
+    color: aliceblue;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    transition: 2s;
+}
+
+.title p:hover {
+    transition: 2s;
+    color: #171010;
+    cursor: pointer;
+    text-shadow: 
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff;
+}
+
+.Video {
+    width: 70px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Video video {
+    width: 600px;
+    height: 400px;
+    margin: 20px;
+    transition: 2s;
+}
+
+.Video video:hover {
+    transition: 2s;
+    transform: scale(1.2);
+    box-shadow: 
+    0 0 10px #fff,
+    0 0 10px orange,
+    0 0 10px #171010;
+}
+
+
+
+footer {
+    width: 100%;
+    height: 60px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #5c5a59;
+}
+
+/* Contact Section */
+
+.ContainerForContact {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.titlecontact p{
+    font-size: 25px;
+    color: #171010;
+    transition: 2s;
+}
+
+.titlecontact p:hover {
+    transition: 2s;
+    color: #fff;
+    cursor: pointer;
+    text-shadow: 
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff;
+}
+
+.items img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: #171010 solid 2px;
+    transition: 2s;
+}
+
+.items a {
+    font-size: 15px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: #171010;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.items p {
+    padding: 5px;
+}
+
+.items img:hover {
+    box-shadow: 
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff;
+    transition: 2s;
+}
+
+.items a:hover {
+    transition: 1s;
+    color: #fff;
+    cursor: pointer;
+    text-shadow: 
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff;
+}
